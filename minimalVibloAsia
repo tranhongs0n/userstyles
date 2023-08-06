@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           viblo.asia - 8/6/2023, 12:09:36 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("viblo.asia") {
+    .promo__banner,
+    .fixed-bottom-bar{
+        display:none;
+    }
+    /* Post */
+/*     .post-content__author_meta, */
+    .post-author__info .stats,
+    .post-author__info .subscribe,
+    .post-author__info .text-muted,
+    .post-meta,
+    .post__menu,
+    .post-action,
+    .post-footer,
+    .license-text,
+    .elated-posts-box {
+        display: none!important;
+    }
+    /* Stop annoying modal */
+    .el-popup-parent--hidden {
+        overflow: auto;
+    }
+    .el-dialog__wrapper,
+    .v-modal {
+        display: none;
+    }
+}
